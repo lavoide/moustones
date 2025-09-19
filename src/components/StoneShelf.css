@@ -1,9 +1,9 @@
 .stone-shelf {
   padding: 3rem;
-  background: linear-gradient(135deg, #fdf5e6 0%, #f5deb3 50%, #daa520 100%);
   min-height: 100vh;
   font-family: 'Cinzel', 'Georgia', serif;
   position: relative;
+  transition: background 0.1s ease-out;
 }
 
 .stone-shelf::before {
