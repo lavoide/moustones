@@ -5,9 +5,10 @@
 }
 
 body {
-  font-family: 'Georgia', serif;
-  background: linear-gradient(135deg, #fdf6e3 0%, #f5e6a3 100%);
+  font-family: 'Cinzel', 'Georgia', serif;
+  background: linear-gradient(135deg, #fdf5e6 0%, #f5deb3 50%, #daa520 100%);
   min-height: 100vh;
+  color: #8b4513;
 }
 
 #root {
