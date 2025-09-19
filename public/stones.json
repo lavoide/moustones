@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Rose Quartz",
       "description": "A beautiful pale pink stone known as the 'love stone'. Found in Brazil, this specimen has a gentle, translucent quality with soft internal patterns. Rose quartz is believed to promote emotional healing and self-love.",
-      "image": "/img/rose-quartz.svg",
+      "image": "./img/rose-quartz.svg",
       "origin": "Brazil",
       "dateAcquired": "2023-06-15",
       "category": "Quartz"
@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Amethyst Cluster",
       "description": "A stunning deep purple amethyst cluster with perfect crystal formations. This piece showcases the natural beauty of Uruguay's amethyst caves, with rich violet hues and exceptional clarity.",
-      "image": "/img/amethyst-cluster.svg",
+      "image": "./img/amethyst-cluster.svg",
       "origin": "Uruguay",
       "dateAcquired": "2023-08-22",
       "category": "Quartz"
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Tiger's Eye",
       "description": "A golden-brown chatoyant stone with silky luster and distinctive banding. This tiger's eye specimen displays beautiful golden and brown striations that seem to shimmer in the light.",
-      "image": "/img/tigers-eye.svg",
+      "image": "./img/tigers-eye.svg",
       "origin": "South Africa",
       "dateAcquired": "2023-05-10",
       "category": "Quartz"
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Lapis Lazuli",
       "description": "A deep blue metamorphic rock with flecks of gold pyrite. This ancient stone was prized by Egyptian royalty and continues to captivate with its celestial blue color and golden inclusions.",
-      "image": "/img/lapis-lazuli.svg",
+      "image": "./img/lapis-lazuli.svg",
       "origin": "Afghanistan",
       "dateAcquired": "2023-07-03",
       "category": "Metamorphic"
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Green Aventurine",
       "description": "A translucent green stone with a gentle shimmer caused by mica inclusions. This aventurine specimen has a soothing forest green color and smooth, polished surface that feels wonderful to touch.",
-      "image": "/img/green-aventurine.svg",
+      "image": "./img/green-aventurine.svg",
       "origin": "India",
       "dateAcquired": "2023-09-14",
       "category": "Quartz"

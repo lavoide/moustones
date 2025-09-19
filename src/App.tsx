@@ -10,7 +10,7 @@ function App() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   useEffect(() => {
-    fetch('/stones.json')
+    fetch('./stones.json')
       .then(response => response.json())
       .then((data: StoneCollection) => setStones(data.stones))
       .catch(error => console.error('Error loading stones:', error))
