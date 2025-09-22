@@ -42,15 +42,15 @@
 .stone-image-container {
   width: 100%;
   height: 180px;
-  border-radius: 15px;
-  overflow: hidden;
   margin-bottom: 1.5rem;
-  background: linear-gradient(45deg, #f5deb3, #deb887);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(184, 134, 11, 0.4);
-  box-shadow: inset 0 2px 8px rgba(139, 69, 19, 0.2);
+}
+
+.stone-image-container *,
+.stone-image-container::before,
+.stone-image-container::after {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .stone-image {
@@ -60,10 +60,30 @@
   border-radius: 15px;
   transition: transform 0.4s ease;
   filter: drop-shadow(0 4px 8px rgba(139, 69, 19, 0.3));
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 .stone-card:hover .stone-image {
   transform: scale(1.05);
+}
+
+.stone-card-empty {
+  cursor: default !important;
+  pointer-events: none;
+}
+
+.stone-card-empty:hover {
+  transform: none !important;
+  box-shadow:
+    0 8px 32px rgba(139, 69, 19, 0.3),
+    0 4px 16px rgba(184, 134, 11, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4) !important;
+}
+
+.stone-card-empty::before {
+  opacity: 0 !important;
 }
 
 .stone-label {
@@ -77,10 +97,14 @@
     inset 0 -2px 4px rgba(139, 69, 19, 0.4),
     0 4px 8px rgba(139, 69, 19, 0.3);
   border: 1px solid rgba(184, 134, 11, 0.4);
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .stone-name {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 700;
   text-shadow:
     0 0 10px rgba(255, 248, 220, 0.6),
@@ -88,7 +112,13 @@
   letter-spacing: 0.5px;
   text-transform: uppercase;
   font-family: 'Cinzel', 'Georgia', serif;
-  line-height: 1.2;
+  line-height: 1.1;
   word-wrap: break-word;
   hyphens: auto;
+  overflow-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

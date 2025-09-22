@@ -38,15 +38,15 @@ const StoneModal: React.FC<StoneModalProps> = ({ stone, isOpen, onClose }) => {
             <h2 className="modal-title">{stone.name}</h2>
             <div className="stone-metadata">
               <div className="metadata-item">
-                <span className="metadata-label">Origin:</span>
+                <span className="metadata-label">Походження:</span>
                 <span className="metadata-value">{stone.origin}</span>
               </div>
               <div className="metadata-item">
-                <span className="metadata-label">Category:</span>
+                <span className="metadata-label">Категорія:</span>
                 <span className="metadata-value">{stone.category}</span>
               </div>
               <div className="metadata-item">
-                <span className="metadata-label">Date Acquired:</span>
+                <span className="metadata-label">Дата придбання:</span>
                 <span className="metadata-value">{new Date(stone.dateAcquired).toLocaleDateString()}</span>
               </div>
             </div>

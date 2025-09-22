@@ -28,7 +28,7 @@ const StoneShelf: React.FC<StoneShelfProps> = ({ stones, onStoneClick }) => {
 
   return (
     <div className="stone-shelf" style={backgroundStyle}>
-      <h1 className="collection-title">My Stone Collection</h1>
+      <h1 className="collection-title">Моя колекція каменів</h1>
       <div className="shelf-container">
         <div className="shelf-wood"></div>
         <div className="stones-grid">
