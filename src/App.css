@@ -6,9 +6,9 @@
 
 body {
   font-family: 'Cinzel', 'Georgia', serif;
-  background: linear-gradient(135deg, #fdf5e6 0%, #f5deb3 50%, #daa520 100%);
+  background: linear-gradient(135deg, #f2e9ae 0%, #f2e9ae 50%, #ab8be0 100%);
   min-height: 100vh;
-  color: #8b4513;
+  color: #ab8be0;
 }
 
 #root {
